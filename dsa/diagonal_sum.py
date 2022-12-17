@@ -7,9 +7,8 @@ def sum_diagonal(arr):
     for i in range(len(arr)):
         for j in range(len(arr[i])):
             if i == j:
-                diag_sum += (arr[i][j])
+                diag_sum += arr[i][j]
     return diag_sum
-
 
 
 x = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
